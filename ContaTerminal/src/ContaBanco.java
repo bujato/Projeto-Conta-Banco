@@ -21,7 +21,7 @@ public class ContaBanco {
         System.out.println("Digite o saldo para saque:");
         double saldoConta = scanner.nextDouble();
 
-        // Exibir as informações da conta
+        // Exibir as informações da conta e uma pequena verificação se é uma conta já existente
         if (numeroConta == 1234 && agenciaBanco.equals("123-4")) {
             System.out.println("Bem-vindo de volta, " + nomeCliente + "!E seu saldo " + saldoConta + " já está disponível para saque.");
         } else {
